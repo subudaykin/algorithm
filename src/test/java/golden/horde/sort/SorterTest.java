@@ -31,13 +31,13 @@ public class SorterTest {
 	}
 	
 	@Test
-	@Ignore
 	public void auxiliaryTest(){
 		int[] source = new int[]{3, 2, 11, 7, 5, 15, 2};
 		new MergeSorter().sort(source);
 	}
 
 	@Test
+	//@Ignore
 	public void testSortedArray() {
 		for (int i = 0; i < 100; i++) {
 			int[] source = _generateSourceArray(true, true, Integer.MIN_VALUE);

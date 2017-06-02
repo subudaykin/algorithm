@@ -18,6 +18,7 @@ public class InsertSorter extends BaseSorter implements ISorter {
 
 	@Override
 	public String description() {
+		double d;
 		return "Insert sorting";
 	}
 	

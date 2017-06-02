@@ -27,7 +27,7 @@ public class ShellSorter extends BaseSorter implements ISorter {
 		int h = 1;
 		while (3 * h + 1 < length){
 			h++;
-		};
+		}
 		return h == 1 ? 1 : --h;
 	}
 
